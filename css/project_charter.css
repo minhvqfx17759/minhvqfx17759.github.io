@@ -1,0 +1,11 @@
+.row {
+  border: 10px solid rgb(39, 191, 196);
+}
+
+.total {
+  border: none;
+}
+
+.timeline-item {
+  border-bottom: 1px dotted green;
+}
