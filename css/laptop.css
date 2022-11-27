@@ -270,9 +270,19 @@
   padding: 50px;
 }
 
+.table-project td {
+  border: #ddd 1px solid;
+  border-top: #ddd 1px solid;
+  border-bottom: #ddd 1px solid;
+}
+
 /*FOOTER*/
 
 .footer {
   display: flex;
   align-items: center;
+}
+
+.icon {
+  font-size: x-large;
 }

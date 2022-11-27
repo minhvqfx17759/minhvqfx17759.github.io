@@ -29,4 +29,9 @@
   .img-project {
     display: block;
   }
+
+  /*FOOTER*/
+  .footer span {
+    display: none;
+  }
 }
