@@ -1,0 +1,288 @@
+* {
+  margin: 0px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+/*COVER*/
+
+.bg-grey {
+  background: #f7f7f7;
+  width: auto;
+}
+
+.img-cover {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+#banner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.name-cover {
+  font-size: 50px;
+}
+
+.name {
+  display: inline;
+}
+
+.target {
+  padding-top: none;
+}
+
+/*NAVIGATION BAR*/
+
+.intro-nav {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 2.5fr 1fr 1fr 1.5fr;
+}
+
+.info-title {
+  grid-area: 1/2/2/3;
+}
+
+.cv-title {
+  grid-area: 1/3/2/4;
+}
+
+.name-title {
+  grid-area: 1/4/2/5;
+}
+
+.cert-title {
+  grid-area: 1/5/2/6;
+}
+
+.project-title {
+  grid-area: 1/6/2/7;
+}
+
+.avatar {
+  border-radius: 50%;
+
+  position: absolute;
+  height: 150px;
+  border: solid 10px #f7f7f7;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-bar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nar-bar-items {
+  border-left: #595b5c 1px solid;
+}
+/*PERSONAL INFORMATION*/
+
+.personal-target {
+  display: grid;
+  grid-auto-columns: 1fr 1fr;
+}
+
+.target {
+  grid-area: 1/1/2/2;
+}
+
+.personal-info {
+  grid-area: 1/2/2/3;
+}
+
+.PI {
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 20px;
+}
+
+/*CV MAIN*/
+
+.job-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.ji-sec {
+  margin: 0px;
+  border: #9ca2a5 1px solid;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.ji-icon {
+  font-size: xx-large;
+  height: fit-content;
+}
+
+.ji-sec-title {
+  line-height: 100px;
+}
+.ji-context {
+  grid-column: 1/-1;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 20px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+/*TAG*/
+
+.tag {
+  background-color: #199cdb;
+  color: #f7f7f7;
+  padding: 5px 5px;
+  display: inline-block;
+  border-radius: 15%;
+}
+
+/* SKILL&LANG SPAN*/
+.span1 {
+  background-color: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.span2 {
+  background-color: #595b5c;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/*HOBBY ICON */
+
+#icon-hobby {
+  color: #1e90ff;
+  height: 50px;
+  width: 50px;
+  font-size: x-large;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+  border-style: solid;
+  text-align: center;
+  line-height: 50px;
+}
+
+.hobbies-table {
+  /* margin: auto; */
+  margin-bottom: 20px;
+  width: max-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.hobbies-context {
+  margin: auto;
+}
+
+/*LANGUAGE*/
+.language-context {
+  margin-left: 60px;
+}
+/*SKILL*/
+.skill-context {
+  margin-left: 60px;
+}
+/*CERTIFICATION*/
+
+.cert-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  border-width: 100%;
+  border: 1px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cert-content::nth-child(odd) {
+  border-right: 1px solid black;
+}
+
+.img-web {
+  width: 50%;
+}
+
+.footer {
+  align-items: center;
+}
+
+.cert-java {
+  border-left: #595b5c 2px solid;
+  border-bottom: #595b5c 2px solid;
+  border-bottom: #595b5c 2px solid;
+}
+
+.cert-web {
+  border-bottom: #595b5c 2px solid;
+}
+
+/*PROJECT*/
+.project-section-title {
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.img-project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1600px;
+  gap: 20px;
+}
+
+.project1 {
+  grid-area: 1/1/2/2;
+}
+.project2 {
+  grid-area: 1/2/2/3;
+}
+.project3 {
+  grid-area: 1/3/2/4;
+}
+
+.img-project-ele {
+  width: 100%;
+}
+
+.bg-grey {
+  background-color: rgb(241, 236, 230);
+  padding: 50px;
+}
+
+.table-project td {
+  border: #ddd 1px solid;
+  border-top: #ddd 1px solid;
+  border-bottom: #ddd 1px solid;
+}
+
+/*FOOTER*/
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: x-large;
+}

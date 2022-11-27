@@ -1,0 +1,37 @@
+@media screen and (max-width: 480px) {
+  .intro-nav {
+    display: block;
+    margin: 20px;
+  }
+  /*PERSONAL INFORMATION*/
+  .personal-target {
+    display: block;
+    grid-auto-columns: 1fr;
+  }
+
+  /*CV MAIN*/
+
+  .job-info {
+    display: block;
+  }
+
+  /*CERTIFICATION*/
+
+  .cert-content {
+    display: block;
+  }
+  .cert-java {
+    border-left: none;
+    border-bottom: #595b5c 2px solid;
+  }
+
+  /*PROJECT*/
+  .img-project {
+    display: block;
+  }
+
+  /*FOOTER*/
+  .footer span {
+    display: none;
+  }
+}
